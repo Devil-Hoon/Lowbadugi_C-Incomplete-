@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jtESCHlen3ZWvL9TWCqoZZVedZ+yZsr6DyuDUJKxbcjSfVn9FqOOM7SwnB7K6Q4OWPeV0lKToFSs7w6KHS4gZw==",
+  "success": true,
+  "projectFilePath": "D:\\CSharpProject\\LowBadugi\\PacketGenerator\\PacketGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}

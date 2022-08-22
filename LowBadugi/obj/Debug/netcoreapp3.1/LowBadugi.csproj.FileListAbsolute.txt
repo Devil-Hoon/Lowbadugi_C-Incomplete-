@@ -1,0 +1,17 @@
+D:\CSharpProject\LowBadugi\LowBadugi\obj\Debug\netcoreapp3.1\LowBadugi.csproj.AssemblyReference.cache
+D:\CSharpProject\LowBadugi\LowBadugi\obj\Debug\netcoreapp3.1\LowBadugi.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharpProject\LowBadugi\LowBadugi\obj\Debug\netcoreapp3.1\LowBadugi.AssemblyInfoInputs.cache
+D:\CSharpProject\LowBadugi\LowBadugi\obj\Debug\netcoreapp3.1\LowBadugi.AssemblyInfo.cs
+D:\CSharpProject\LowBadugi\LowBadugi\obj\Debug\netcoreapp3.1\LowBadugi.csproj.CoreCompileInputs.cache
+D:\CSharpProject\LowBadugi\LowBadugi\bin\Debug\netcoreapp3.1\LowBadugi.exe
+D:\CSharpProject\LowBadugi\LowBadugi\bin\Debug\netcoreapp3.1\LowBadugi.deps.json
+D:\CSharpProject\LowBadugi\LowBadugi\bin\Debug\netcoreapp3.1\LowBadugi.runtimeconfig.json
+D:\CSharpProject\LowBadugi\LowBadugi\bin\Debug\netcoreapp3.1\LowBadugi.runtimeconfig.dev.json
+D:\CSharpProject\LowBadugi\LowBadugi\bin\Debug\netcoreapp3.1\LowBadugi.dll
+D:\CSharpProject\LowBadugi\LowBadugi\bin\Debug\netcoreapp3.1\LowBadugi.pdb
+D:\CSharpProject\LowBadugi\LowBadugi\bin\Debug\netcoreapp3.1\ServerCore.dll
+D:\CSharpProject\LowBadugi\LowBadugi\bin\Debug\netcoreapp3.1\ServerCore.pdb
+D:\CSharpProject\LowBadugi\LowBadugi\obj\Debug\netcoreapp3.1\LowBadugi.csproj.CopyComplete
+D:\CSharpProject\LowBadugi\LowBadugi\obj\Debug\netcoreapp3.1\LowBadugi.dll
+D:\CSharpProject\LowBadugi\LowBadugi\obj\Debug\netcoreapp3.1\LowBadugi.pdb
+D:\CSharpProject\LowBadugi\LowBadugi\obj\Debug\netcoreapp3.1\LowBadugi.genruntimeconfig.cache

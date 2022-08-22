@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PDL>
+  <packet name ="S_BroadcastPlayerBatting">
+    <int name ="sessionId"/>
+    <string name ="playerId"/>
+    <int name ="BBing"/>
+    <int name ="Harf"/>
+    <int name ="Full"/>
+    <int name ="Call"/>
+    <bool name ="isBBing"/>
+    <bool name ="isHarf"/>
+    <bool name ="isFull"/>
+    <bool name ="isCheck"/>
+  </packet>
+  <packet name ="S_BroadcastPlayerChangeTurn">
+    <int name ="sessionId"/>
+    <string name ="playerId"/>
+  </packet>
+  <packet name ="S_BroadcastPlayerChangingCards">
+    <int name ="sessionId"/>
+    <string name ="playerId"/>
+    <list name="Cards">
+      <int name="originNum"/>
+      <string name="cardName"/>
+      <int name="cardNum"/>
+    </list>
+  </packet>
+  <packet name ="S_PlayerDie">
+    <int name="sessionId"/>
+    <string name="playerId"/>
+    <bool name="isDie"/>
+  </packet>
+  <packet name ="S_GameStartWait">
+    <int name ="sessionId"/>
+    <bool name ="start"/>
+  </packet>
+  <packet name="S_BroadcastGameStart">
+    <bool name="isStart"/>
+  </packet>
+  <packet name="S_BroadcastDeckList">
+    <list name="deck">
+      <int name="originNum"/>
+      <string name="cName"/>
+      <int name="shape"/>
+      <int name="number"/>
+    </list>
+  </packet>
+  <packet name="S_BroadcastCardGive">
+    <int name="sessionId"/>
+    <string name="playerId"/>
+  </packet>
+  <packet name ="S_DuplicateLogin">
+    <int name ="sessionId"/>
+    <string name="playerId"/>
+    <int name ="loginedSessionId"/>
+  </packet>
+  <packet name ="S_EnterLobby">
+    <int name="sessionId"/>
+    <string name="playerId"/>
+    <string name="playerName"/>
+    <int name="gp"/>
+  </packet>
+  <packet name="S_LeaveLobby">
+    <int name="sessionId"/>
+  </packet>
+  <packet name ="S_BroadcastEnterRoom">
+    <int name="sessionId"/>
+    <string name="playerId"/>
+    <string name="playerName"/>
+    <int name="gp"/>
+    <list name="deck">
+      <int name="originNum"/>
+      <string name="cName"/>
+      <int name="shape"/>
+      <int name="number"/>
+    </list>
+  </packet>
+  <packet name="S_BroadcastLeaveRoom">
+    <int name="sessionId"/>
+  </packet>
+  <packet name="S_LobbyPlayerList">
+    <list name="player">
+      <bool name="isSelf"/>
+      <int name="sessionId"/>
+      <string name="playerId"/>
+      <string name="playerName"/>
+      <int name="gp"/>
+    </list>
+  </packet>
+  <packet name="S_RoomPlayerList">
+    <list name="player">
+      <bool name="isSelf"/>
+      <int name="sessionId"/>
+      <string name="playerId"/>
+      <string name="playerName"/>
+      <int name="gp"/>
+    </list>
+  </packet>
+  <packet name="C_DuplicateCheck">
+    <string name="playerId"/>
+  </packet>
+  <packet name="C_EnterLobby">
+    <string name="playerId"/>
+    <string name="playerName"/>
+    <int name="gp"/>
+  </packet>
+  <packet name="C_EnterRoom">
+    <string name="playerId"/>
+    <string name="playerName"/>
+    <int name="gp"/>
+  </packet>
+  <packet name="C_LeaveLobby">
+  </packet>
+  <packet name="C_LeaveRoom">
+  </packet>
+  <packet name="C_Batting">
+    <bool name="isControl"/>
+    <bool name="isBBing"/>
+    <bool name="isHarf"/>
+    <bool name="isFull"/>
+    <bool name="isCall"/>
+    <bool name="isCheck"/>
+    <bool name="isDie"/>
+    <bool name="isAllIn"/>
+    <int name="batting"/>
+  </packet>
+  <packet name="C_CardChange">
+    <bool name="isControl"/>
+    <list name="Cards">
+      <int name="cardOriginNum"/>
+      <string name="cardName"/>
+      <int name="cardNum"/>
+    </list>
+  </packet>
+  <packet name="C_GameStart">
+    <bool name="start"/>
+  </packet>
+</PDL>

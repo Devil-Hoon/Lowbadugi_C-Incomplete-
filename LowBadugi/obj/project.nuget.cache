@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4PfRKOknVrpoYrZpW08RE8h3M2z+aHuu7aGxxHN0Vo6c3vFlbat2yx0TpcVr6hY1IZtQSuHb1fv1nidgv0SNjQ==",
+  "success": true,
+  "projectFilePath": "D:\\CSharpProject\\LowBadugi\\LowBadugi\\LowBadugi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}
